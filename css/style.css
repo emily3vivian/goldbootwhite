@@ -1,7 +1,7 @@
 body {
 	background-color: black;
 	background-image: url(../assets/png/GB-brick-background.png);
-	background-repeat: no-repeat; 
+	background-repeat: repeat;
 	background-position: center center;
 	background-size: cover;
 	position: static;
@@ -31,63 +31,26 @@ body {
 	flex-flow: nowrap;
 	justify-content: space-evenly;	
 	list-style: none;
-	margin: auto;
-	align-items: center;
-	width: 900px;
+	max-width: 60%;
 }
 
-.flex-item {
-	padding: 5px;
-}
-
-.fa-facebook-f {
+.fa-facebook-f, .fa-twitter,.fa-instagram, .fa-youtube, .fa-apple, .fa-tshirt, .fa-spotify{
   	color:  white;
 }
 
-.fa-twitter {
-	color:  white;
-}
-
-.fa-instagram {
-	color:  white;
-}
-
-.fa-youtube {
-	color:  white;
-}
-
-.fa-apple {
-	color:  white;
-}
-
-.fa-tshirt {
-	color:  white;
-}
-
-.fa-spotify {
-	color:  white;
-}
-
-.flex-container {
-	max-width: 900px;
-	width: 100%;
-}
-
-#mc-embedded-subscribe{
-	width: 900px;
-	margin-left: .4vw;
+#mc-embed-signup-scroll{
+	padding: 2px;
 }
 
 #mc-embed-signup{
 	padding: 2vw;
 	font-size: 20px;
-	margin-left: 22vw;
+	margin-top: -20px;
 }
 
 .mc-field-group{
 	font-size: 22px;
 	padding: 7px;
-
 }
 
 .button{
@@ -99,20 +62,23 @@ body {
 	font-family: 'Rock Salt', cursive;
 }
 
-
-
-#mce-NAME, #mce-EMAIL, #mce-MMERGE2{
-	width: 900px;
+#mce-NAME, #mce-EMAIL  {
+	width: 500px;
 	height: 40px;
 	font-size: 15px;
 	border:2px solid #bf9933;
-
+	color: #bf9933;
+	font-family: 'Rock Salt', cursive;
 }
 
-#mce-MMERGE3{
-	width: 900px;
+#mce-MMERGE2, #mce-MMERGE3 {
+	width: 540px;
 	height: 100px;
 	font-size: 15px;
 	border:2px solid #bf9933;
-
+	color: #bf9933;
+	font-family: 'Rock Salt', cursive;
 } 
+#mc-embedded-subscribe{
+	width: 410px;
+}
