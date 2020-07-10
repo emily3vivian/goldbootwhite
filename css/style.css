@@ -31,7 +31,7 @@ body {
 	flex-flow: nowrap;
 	justify-content: space-evenly;	
 	list-style: none;
-	max-width: 60%;
+	max-width: 80%;
 }
 
 .fa-facebook-f, .fa-twitter,.fa-instagram, .fa-youtube, .fa-apple, .fa-tshirt, .fa-spotify{
